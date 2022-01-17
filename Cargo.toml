@@ -6,3 +6,4 @@ members = [
 ]
 [profile.release]
 panic = 'unwind'
+opt-level = "s" # Make binary size a bit smaller  
